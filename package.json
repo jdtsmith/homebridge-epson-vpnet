@@ -1,0 +1,30 @@
+{
+  "name": "homebridge-epson-vpnet",
+  "version": "0.0.1",
+  "description": "Epson Projector Power/Lens/Image Memory Control with HDR Autoswitch",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "jsesc": "^2.5.2",
+    "xml2js": "^0.4.23",
+    "throttled-queue": "^1.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:jdtsmith/homebridge-epson-vpnet"
+  },
+  "keywords": [
+    "homebridge",
+    "epson",
+    "projector",
+    "hdr",
+    "memory",
+    "homekit"
+  ],
+  "author": "JD Smith",
+  "license": "MIT"
+}
