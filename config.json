@@ -1,0 +1,35 @@
+{
+  "bridge": {
+    "name": "HomebridgeEpson",
+    "port": 51111,
+    "username": "1D:13:1E:E1:C1:37",
+    "pin": "111-22-333"
+  },
+
+  "description": "Epson HomeBridge",
+
+  "platforms": [
+    {
+      "platform": "EpsonESC/EVP.net",
+      "projectors": [
+	{
+	  "name": "HomeTheaterProjector",
+	  "ip": "192.168.0.100",
+          "model": "Epson5040UB",
+	  "hdr": true,
+	  "hdrQuery": {
+	    "module": "denon_hdr_query",
+	    "ip": "192.168.0.51"
+	  },
+	  "memory": {
+	    "image": {
+	      "sdr": {1: "Game", 4: "THX"},
+	      "hdr": {5: "Harpervision", 6: "ACH", 7: "AB1"}
+	    },
+	    "lens": {1: "Cinescope", 2: "16:9", 9:"2:1"}
+	  }
+	}
+      ]
+    }
+  ]
+}
